@@ -1,11 +1,14 @@
 import React from 'react'
 import './App.css'
+import { Container } from '@material-ui/core'
 import QueuesPage from './queues/Page'
 
 function App() {
     return (
         <div className="App">
-            <QueuesPage />
+            <Container maxWidth="md">
+                <QueuesPage />
+            </Container>
         </div>
     )
 }
