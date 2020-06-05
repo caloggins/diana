@@ -24,6 +24,7 @@ exports[`<Page />... it should render 1`] = `
       <WithStyles(ForwardRef(TextField))
         id="name-filter"
         label="Regex here"
+        onChange={[Function]}
       />
     </WithStyles(ForwardRef(Grid))>
     <WithStyles(ForwardRef(Grid))
